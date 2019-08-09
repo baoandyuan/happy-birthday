@@ -18,9 +18,9 @@
 			<h1>生日快乐</h1>
 			
 			<form class="form">
-				<input id="userName" name="userName" type="text" placeholder="姓名" value="李媛媛">
-				<input id="pwd" name="pwd" type="password" placeholder="密码" value="123">
-				<button type="submit" id="login-button">进入</button>
+				<input id="userName" name="userName" type="text" placeholder="姓名" value="">
+				<input id="pwd" name="pwd" type="password" placeholder="密码" value="">
+				<button type="submit" id="login-button"><a href=htmlpreview.github.io/?https://github.com/baoandyuan/happy-birthday/blob/master/BirthdayCake.html>进入</a></button>
 			</form>
 		</div>
 		
@@ -44,7 +44,7 @@
 	$('#login-button').click(function (event) {
 		var userName=document.getElementById("userName").value;  
 	    var pwd=document.getElementById("pwd").value;
-	    if(userName=="李媛媛" &&  pwd=="123"){ 
+	    if(userName=="李媛媛" &&  pwd=="20010710"){ 
 			event.preventDefault();
 			$('form').fadeOut(500);
 			$('.wrapper').addClass('form-success');
